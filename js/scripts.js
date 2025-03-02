@@ -173,33 +173,26 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll(".tab");
     const serviceItems = document.querySelectorAll(".service-item");
-  
+
     tabs.forEach(tab => {
-      tab.addEventListener("click", function () {
-        // Remover la clase 'active' de todas las pestañas y secciones
-        tabs.forEach(t => t.classList.remove("active"));
-        serviceItems.forEach(s => s.classList.remove("active"));
-  
-        // Agregar la clase 'active' solo a la pestaña y contenido seleccionado
-        this.classList.add("active");
-        document.getElementById(this.dataset.target).classList.add("active");
-      });
+        tab.addEventListener("click", function () {
+            // Remover la clase 'active' de todas las pestañas y secciones
+            tabs.forEach(t => t.classList.remove("active"));
+            serviceItems.forEach(s => {
+                s.style.display = "none";  // Ocultar el contenido inmediatamente
+                s.classList.remove("active");
+            });
+
+            // Agregar la clase 'active' solo a la pestaña seleccionada
+            this.classList.add("active");
+            const targetContent = document.getElementById(this.dataset.target);
+
+            // Mostrar el contenido primero, luego aplicar la animación
+            targetContent.style.display = "block";
+
+            setTimeout(() => {
+                targetContent.classList.add("active");
+            }, 10);  // Pequeño retraso para que el navegador procese el cambio
+        });
     });
-  
-    // Suavizar el desplazamiento
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute("href").substring(1);
-        const targetElement = document.getElementById(targetId);
-  
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop - 50,
-            behavior: "smooth"
-          });
-        }
-      });
-    });
-  });
-  
+});

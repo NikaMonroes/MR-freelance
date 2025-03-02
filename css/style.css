@@ -703,6 +703,36 @@ a.icon {
   background: #c65c00;
 }
 
+/* Ajuste responsivo para los tabs */
+@media (max-width: 768px) {
+  .service-tabs {
+    flex-direction: column; /* Apila los botones en columna */
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px; /* Espacio más pequeño entre botones */
+  }
+
+  .tab {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    text-align: center;
+    padding: 12px; /* Un poco más de padding para mejor toque */
+  }
+}
+
+/* Ajuste suavizado para los tabs */
+.service-item {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.service-item.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* single project section styles
 /* ========================================== */
