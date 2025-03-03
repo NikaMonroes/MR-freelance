@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left; font-size: medium;"><br>Desde 2008, he trabajado como freelance ayudando a emprendedores a impulsar sus negocios mediante el diseño de logotipos, empaques, material promocional y la creación de una sólida imagen de marca. Además, he colaborado con diversos profesionales en la elaboración de publicaciones editoriales y en el desarrollo de páginas web que destacan sus logros y proyectos. Mi objetivo es proporcionar soluciones de diseño que reflejen fielmente la identidad de cada cliente y maximicen su impacto en el mercado.</td>
+                    <td style="text-align: left; font-size: medium"><br>Desde 2008, he trabajado como freelance ayudando a emprendedores a impulsar sus negocios mediante el diseño de logotipos, empaques, material promocional y la creación de una sólida imagen de marca. Además, he colaborado con diversos profesionales en la elaboración de publicaciones editoriales y en el desarrollo de páginas web que destacan sus logros y proyectos. Mi objetivo es proporcionar soluciones de diseño que reflejen fielmente la identidad de cada cliente y maximicen su impacto en el mercado.</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
