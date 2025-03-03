@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
+// tabs servicios
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll(".tab");
     const serviceItems = document.querySelectorAll(".service-item");
@@ -196,3 +196,32 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+// formulario truco para permanecer en la pagina
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form");
+
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault(); // Evita la redirección
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: { "Accept": "application/json" }
+        });
+
+        if (response.ok) {
+          alert("¡Mensaje enviado con éxito!"); // Puedes personalizarlo mejor
+          form.reset(); // Limpia el formulario
+        } else {
+          alert("Hubo un error, intenta de nuevo.");
+        }
+      } catch (error) {
+        alert("Error al enviar el mensaje.");
+      }
+    });
+  });
