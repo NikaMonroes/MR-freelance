@@ -732,6 +732,23 @@ a.icon {
   opacity: 1;
   transform: translateY(0);
 }
+/* Botón Regresar */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  color: white;
+  background: #f18517;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background: #d37314;
+}
+
 
 
 /* single project section styles
