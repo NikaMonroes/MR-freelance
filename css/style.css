@@ -39,15 +39,16 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-  color: #215B70;
+  color: #0e252d;
   font-size: 1.8rem;
   font-weight: 900;
 }
 .animation-text {
   color: #F18415;
-  font-size: 1.8rem;
+  font-size: 3.8rem;
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 3vh;
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 }
 
 h3 {
-  color: #673B1A;
+  color: #215B70;
   font-size: 14px;
   letter-spacing: 4px;
 }
@@ -67,7 +68,7 @@ h5 {
 }
 
 p {
-  color: #777;
+  color: #0e252d;
   font-size: 16px;
   line-height: 28px;
   word-spacing: 1px;
@@ -81,7 +82,7 @@ a {
 a,
 a:hover,
 a:focus {
-	color: #512a10;
+	color: #0ca547;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.25s ease-out;
@@ -478,7 +479,7 @@ a.icon {
 } 
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-  background: #512a10; /*color fondo bloques animados*/
+  background: #215B70; /*color fondo bloques animados*/
   position: absolute;
   top: 0;
   right: 0;
@@ -527,7 +528,7 @@ a.icon {
 }
 
 .filter-wrapper li a {
-    color: #512a10;
+    color: #75380E;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -541,11 +542,11 @@ a.icon {
     border-radius: 5px;
 }
 .filter-wrapper li a:active {
-  background: #512a10 !important;
+  background: #75380E !important;
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-	background: #512a10;
+	background: #75380E;
 	color: #ffffff;
 }
 
@@ -584,7 +585,8 @@ a.icon {
 /* services tab
 /* ========================================== */
 #servicios {
-  background-color: #F3F5F4;
+  background-color: #6FC5B8;
+  padding-top: 40px;
 }
 .container {
   text-align: center;
@@ -596,9 +598,11 @@ a.icon {
   gap: 10px;
   margin-bottom: 20px;
 }
-
+.title-serv {
+  font-size: 2.8rem !important;
+}
 .tab {
-  background: #215B70;
+  background: #EA7913;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -609,6 +613,7 @@ a.icon {
 
 .tab:hover, .tab.active {
   background: #EA7913;
+  color: white;
 }
 
 .service-content {
@@ -642,8 +647,8 @@ a.icon {
 }
 
 .tab {
-  background: #215B70;
-  color: white;
+  background: none;
+  color: #141414;
   border: none;
   padding: 10px 15px;
   cursor: pointer;
@@ -701,7 +706,7 @@ a.icon {
   margin-top: 20px;
   text-decoration: none;
   background: #EA7913;
-  color: white;
+  color: white !important;
   padding: 10px 15px;
   border-radius: 5px;
   transition: 0.3s;
@@ -709,6 +714,7 @@ a.icon {
 
 .back-button:hover {
   background: #c65c00;
+  color: #ffffff
 }
 
 /* Ajuste responsivo para los tabs */
@@ -774,7 +780,7 @@ a.icon {
 }
 .contact-form {
    background-color: #e7e4da; /* Background */
-  color: #512a10; /* Texto café */
+  color: #215B70; /* Texto café */
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -790,7 +796,7 @@ a.icon {
   margin-bottom: 20px;
 }
 .contact-form .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 .contact-form label {
   display: block;
@@ -803,14 +809,16 @@ a.icon {
   padding: 8px;
   padding: 8px;
   border-radius: 4px;
-color: #512a10; /* Texto café */
+  color: #215B70; /* Texto café */
   font-size: 12px; /* Reducido el tamaño de fuente */
 }
+
+
 .contact-form button {
    display: block;
   width: 100%;
   padding: 8px; /* Reducido el padding */
-  background-color: #512a10; /* Naranja */
+  background-color: #215B70; /* Naranja */
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -821,11 +829,21 @@ color: #512a10; /* Texto café */
   background-color: #f18517; /* Naranja más oscuro */
 }
 
+.contact-form ::content {
+  background-color: #0ca547;
+}
+
+
+
+
+
+
+
 
 /* footer section styles
 /* ========================================== */
 footer {
-  background: #6FC5B8;
+  background: #F3F5F4;
   padding-top: 60px;
   padding-bottom: 30px;
   text-align: center;
@@ -863,6 +881,7 @@ footer {
 .social-icon li a:hover {
   background: #ffffff;
 }
+
 
 /* Responsive Mobile styles
 /* ========================================== */
@@ -913,7 +932,7 @@ footer {
     font-size: 1.2rem;
   }
   .animation-text {
-    font-size: 24px;
+    font-size: 2.3rem;
     font-weight: 800;
 
   }

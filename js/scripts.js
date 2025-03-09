@@ -15,12 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
              <table width="80%" border="0" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left;">Ofrezco soluciones de diseño gráfico que impulsan la identidad de marcas y negocios, brindando servicios efectivos y personalizados para ayudarte a destacar en el mercado.</span> </td>
+                    <td style="text-align: center;">Ofrezco soluciones de diseño gráfico que impulsan la identidad de marcas y negocios, brindando servicios efectivos y personalizados para ayudarte a destacar en el mercado.</span> </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left; font-size: medium"><br>Desde 2008, he trabajado como freelance ayudando a emprendedores a impulsar sus negocios mediante el diseño de logotipos, empaques, material promocional y la creación de una sólida imagen de marca. Además, he colaborado con diversos profesionales en la elaboración de publicaciones editoriales y en el desarrollo de páginas web que destacan sus logros y proyectos. Mi objetivo es proporcionar soluciones de diseño que reflejen fielmente la identidad de cada cliente y maximicen su impacto en el mercado.</td>
+                    <td style="text-align: left; font-size: medium"><br> <blockquote>
+        Desde 2008, he trabajado como freelance ayudando a emprendedores a impulsar sus negocios mediante el diseño de logotipos, empaques, material promocional y la creación de una sólida imagen de marca. Además, he colaborado con diversos profesionales en la elaboración de publicaciones editoriales y en el desarrollo de páginas web que destacan sus logros y proyectos. Mi objetivo es proporcionar soluciones de diseño que reflejen fielmente la identidad de cada cliente y maximicen su impacto en el mercado.
+    </blockquote></td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -36,12 +38,13 @@ document.addEventListener('DOMContentLoaded', function() {
             <table width="80%" border="0" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left;">Diseño tu identidad corporativa, incluyendo logotipos, papelería y elementos visuales que refuercen tu presencia en el mercado.</span> </td>
+                    <td style="text-align: center;">Diseño tu identidad corporativa, incluyendo logotipos, papelería y elementos visuales que refuercen tu presencia en el mercado.</span> </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left; font-size: medium;"><br><strong>Logotipo: </strong>
+                    <td style="text-align: left; font-size: medium;"><br><blockquote><strong>Logotipo: </strong>
+
                         Diseño logotipos únicos y personalizados, entregados en formatos vectorizados para impresión de cualquier tamaño, desde tarjetas hasta vallas publicitarias.<br>
                         <strong>Rediseño de Logo: </strong>
                         Actualizo logotipos existentes para mejorar su estética y funcionalidad, adaptándolos a las nuevas tendencias y necesidades de tu marca.<br>
@@ -49,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         Elaboro guías completas de identidad visual para asegurar una comunicación consistente en todos los materiales de tu marca.<br>
                         <strong>Diseño de Papelería: </strong>
                         Desarrollo elementos de papelería profesional como tarjetas de presentación, hojas membretadas y sobres para reforzar tu imagen corporativa.
+                        </blockquote>
                         </td>
 				<td>&nbsp;</td>
 
@@ -65,11 +69,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <table width="80%" border="0" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left;">Desarrollo sitios web y landing pages a medida para tu marca, creando interfaces intuitivas y experiencias de usuario excepcionales que destacan en el mercado.<td>&nbsp;</td> 
+                    <td style="text-align: center;">Desarrollo sitios web y landing pages a medida para tu marca, creando interfaces intuitivas y experiencias de usuario excepcionales que destacan en el mercado.<td>&nbsp;</td> 
                 </tr>
                    <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left; font-size: medium;"><br><strong>Landing Page: </strong>
+                    <td style="text-align: left; font-size: medium;"><br><blockquote><strong>Landing Page: </strong>
                         Desarrollo de páginas de aterrizaje optimizadas para convertir visitas en clientes.<br>
                         <strong>Diseño Web Personal y Corporativo: </strong>
                         Creación de sitios web que reflejan tu identidad o la identidad de tu empresa y comunican tu mensaje de manera efectiva.<br>
@@ -81,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         Optimización de motores de búsqueda para mejorar la visibilidad de tu sitio web y aumentar su ranking.<br>
                         <strong>Redes Sociales: </strong>
                         Diseño de publicidad visual para redes sociales, que incluyen la creación de flyers y banners llamativos, así como la edición de videos impactantes y para promocionar tu negocio en plataformas sociales.
+                        </blockquote>
                         </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -96,12 +101,12 @@ document.addEventListener('DOMContentLoaded', function() {
       	   <table width="80%" border="0" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left;">Servicios de diseño para impresos, como folletos, tarjetas de presentación, banners y otros materiales físicos para tu negocio.</span></td>
+                    <td style="text-align: center;">Servicios de diseño para impresos, como folletos, tarjetas de presentación, banners y otros materiales físicos para tu negocio.</span></td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left; font-size: medium;"><br><strong>Material Promocional: </strong>
+                    <td style="text-align: left; font-size: medium;"><br><blockquote><strong>Material Promocional: </strong>
                     Diseño de folletos, volantes, afiches y pósters para comunicar eficazmente los valores y servicios de tu empresa, además de campañas publicitarias y eventos especiales.<br>
                     <strong>Papelería Corporativa: </strong>
                     Diseño de tarjetas de presentación personalizadas, invitaciones elegantes para eventos corporativos y sociales, y etiquetas para productos, asegurando una presentación profesional.<br>
@@ -111,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     Desarrollo de material de punto de venta, incluyendo exhibidores, banners y displays, para atraer la atención en el lugar de venta.<br>
                     <strong>Catálogos: </strong>
                     Diseño de catálogos detallados para presentar tus productos o servicios de manera profesional.
+                    </blockquote>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -124,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <table width="80%" border="0" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="text-align: left;">Maquetación para publicaciones, incluyendo revistas, libros, y otros materiales impresos con un enfoque en diseño atractivo y funcional.</span> </td>
+                    <td style="text-align: center;">Maquetación para publicaciones, incluyendo revistas, libros, y otros materiales impresos con un enfoque en diseño atractivo y funcional.</span> </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
