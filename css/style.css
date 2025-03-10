@@ -6,7 +6,7 @@ MR freelance CSS - 2024
 ------------------------------------- */
 
 body {
-		background: #F3F5F4;
+		background: #111111;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -39,7 +39,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-  color: #0e252d;
+  color: #111111;
   font-size: 1.8rem;
   font-weight: 900;
 }
