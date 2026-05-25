@@ -1,0 +1,152 @@
+/* =========================
+   TABLET GRANDE
+========================= */
+@media (max-width: 1024px) {
+
+  .card-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-projects {
+    flex-wrap: wrap;
+  }
+
+  .article-title {
+    font-size: 3.5rem;
+  }
+
+  .text-rotate {
+    font-size: 3rem;
+  }
+}
+
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 768px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  /* NAV */
+  .nav-container {
+    padding: 15px 20px;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .banner-header {
+    min-height: 80vh;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .animation-text {
+    height: 120px;
+  }
+
+  .text-rotate {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .banner-subtitle {
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  /* PORTFOLIO */
+  .card-projects {
+    grid-template-columns: 1fr;
+  }
+
+  /* SERVICES */
+  .service-projects {
+    flex-direction: column;
+  }
+
+  .mini-card {
+    max-width: 100%;
+  }
+
+  /* ABOUT */
+  .section-about {
+    padding: 60px 20px;
+  }
+
+  /* BLOG */
+  .article-title {
+    font-size: 2.5rem;
+  }
+
+  .article-content h2 {
+    font-size: 1.5rem;
+  }
+
+  /* PLANES */
+  .cards-plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-plans {
+    width: 100%;
+    max-width: 350px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE PEQUEÑO
+========================= */
+@media (max-width: 480px) {
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .title::before {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+
+  .text-rotate {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .banner-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .article-title {
+    font-size: 2rem;
+  }
+
+  .article-content p {
+    font-size: 1rem;
+  }
+
+  .highlight-box {
+    padding: 1.2rem;
+  }
+
+  .footer-social a {
+    font-size: 1.3rem;
+    margin: 0 8px;
+  }
+
+}
