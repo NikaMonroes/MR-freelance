@@ -769,7 +769,9 @@ img {
 }
 
 /*blog article*/
-.banner-blog1 .banner-blog2 .banner-blog3 .banner-blog4 .banner-blog5 {
+.banner-blog1 .banner-blog2 .banner-blog3 
+.banner-blog4 .banner-blog5 .banner-blog6
+.banner-behind {
   background-size: cover;
   background-position: center;
   padding: 50px 20px;
@@ -825,6 +827,15 @@ img {
 ), 
     url("../img/blog/blog-img12.webp");
 }
+.banner-behind {
+    background:
+   linear-gradient(
+  rgba(26, 31, 43, 0.9),
+  rgba(255, 107, 107, 0.45)
+), 
+    url("../img/services.webp");
+}
+
 .blog-article {
   width: 90%;
   max-width: 850px;
@@ -879,6 +890,7 @@ img {
 
   font-size: 1.8rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
   line-height: 1.1;
 }
 
@@ -893,3 +905,4 @@ img {
 .highlight-box p {
   color: var(--text-color);
 }   
+
