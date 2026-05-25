@@ -699,7 +699,17 @@ img {
   font-weight: bold;
   text-align: center;
 }
+.download-catalog {
+  background:
+     linear-gradient(
+  rgba(26, 31, 43, 0.9),
+  rgba(255, 107, 107, 0.45)
+);
+ align-items: center;
+  text-align: center;
+  padding: 40px 20px;
 
+}
 
 /*blog*/
 .section-blog {
