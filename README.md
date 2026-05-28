@@ -20,6 +20,7 @@ El sitio está optimizado para:
 
 ## Visualización
 Puedes ver el proyecto en vivo 
+https://nikamonroes.github.io/MR-freelance/
 
 ## Autor
 Desarrollado por Monica Romero - NikaMonroes - 2026
